@@ -1,0 +1,115 @@
+
+================== nodes ====================
+n269
+n269
+n269
+n269
+n269
+n269
+n269
+n269
+
+================= job info  =================
+Date:   Fri Apr  7 00:12:18 UTC 2017
+Job ID: 16860456.pod
+Queue:  H30G
+Cores:  8
+
+=================== run =====================
+
+2. Running on GPU  0 (Tesla K40m)
+	Starting Ensemble Clustering on CUDA for total of 66 partitions...
+
+***************************************************************************
+				PST
+***************************************************************************
+
+
+name: Parameters for a clustering project
+kList:
+	1
+	2
+	5
+
+Model List:
+	kmeanseuc
+	kmeanscit
+	kmeanscor
+	kmeanscos
+	medoideuc
+	medoidcit
+	medoidcor
+	medoidcos
+	spectraleuc
+	spectralcit
+	spectralcor
+	spectralcos
+	aggeucwar
+	aggeucavg
+	aggeuccom
+	aggcitavg
+	aggcitcom
+	aggcoravg
+	aggcorcom
+	aggcosavg
+	aggcoscom
+	gmm
+
+outlierCutoff: 3.000000
+outlierMetric: mahal
+
+Starting Ensemble Clustering on CUDA...
+
+
+Starting pre-processing...
+
+
+Done pre-processing...
+
+
+0 objects were removed from original dataset...
+
+***************************************************************************
+Time spent in pre-processing for 14336 objects is 9.330000
+***************************************************************************
+
+
+
+Generating boot indices...
+
+***************************************************************************
+			Generating cluster ensemble
+***************************************************************************
+
+
+	Running Ensemble with 1 Bootstrap...
+
+	Time spent in       kmeanseuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       kmeanseuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+	Time spent in       kmeanseuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+	Time spent in       medoideuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       medoideuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+	Time spent in       medoideuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.1200
+	Time spent in     spectraleuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in     spectraleuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 93.9400
+	Time spent in     spectraleuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 131.0200
+	Time spent in       aggeucwar (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       aggeucwar (model),    0 (bootstrap),   2 (k),  1-Rep  is: 58.6300
+	Time spent in       aggeucwar (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+	Time spent in       aggeucavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       aggeucavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 56.9300
+	Time spent in       aggeucavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+	Time spent in       aggeuccom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       aggeuccom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 56.8900
+	Time spent in       aggeuccom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+	Time spent in       medoidcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       medoidcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.1100
+	Time spent in       medoidcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+	Time spent in     spectralcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in     spectralcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 93.7500
+	Time spent in     spectralcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 130.9400
+	Time spent in       kmeanscos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       kmeanscos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+	Time spent in       kmeanscos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+	Time spent in       aggcosavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+/var/spool/torque/mom_priv/jobs/16860456.pod.SC: line 44: 733978 Segmentation fault      ./cluster_ensemble_create dataset/testcase1/PST_all_nBoot_1.mat dataset/testcase1/ens_combined_4x5_14336.mat "Risky Decision Making Data From IGT" dataset/testcase1/output_ens_combined_4x5_14336_data.mat

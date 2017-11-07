@@ -1,0 +1,61 @@
+#PBS -N ENSEMBLE-CUDA
+#PBS -S /bin/bash
+#PBS -q H30G
+#PBS -j oe
+#PBS -l nodes=1:ppn=8
+
+
+# Load the ompi environment.  Use 'module avail' from the
+# command line to see all available modules.
+
+module load cmake/3.3.1 
+module load matlab/R2015b
+export MLM_LICENSE_FILE=27000@podmt1-100-93 
+module load gcc/4.7.2
+module load cuda/7.5
+module load lapack/3.7.0/gcc.4.7.2
+module load openblas/0.2.13/gcc.4.7.2  
+
+# Display some basics about the job
+
+echo
+echo "================== nodes ===================="
+cat $PBS_NODEFILE
+echo
+echo "================= job info  ================="
+echo "Date:   $(date)"
+echo "Job ID: $PBS_JOBID"
+echo "Queue:  $PBS_QUEUE"
+echo "Cores:  $PBS_NP"
+echo "mpirun: $(which mpirun)"
+echo
+echo "=================== run ====================="
+
+# Enter the PBS folder from which qsub is run
+
+cd $PBS_O_WORKDIR
+
+# Run imb with mpirun. Note that no -mca btl options should be
+# used to ensure optimal performance.  Jobs will use Infiniband
+# by default.
+
+#matlab -r t_mex2c_cluster_fit
+
+# Consumer Behavior based on buying pattern and business conditions data from sda of size 4666x20
+./cluster_ensemble_create dataset/testcase1/PST_all_nBoot_1.mat dataset/testcase1/buy_cond_age_26.mat "Consumer Behavior based on buying pattern and business conditions" dataset/testcase1/output_buy_cond_age_26.mat
+
+# Polish companies bankruptcy data from sda of size 10173x20
+#./cluster_ensemble_create dataset/testcase1/PST_all_nBoot_1.mat dataset/testcase1/polish_companies_bankruptcy_data.mat "Polish Companies Bankruptcy Data" dataset/testcase1/output_polish_companies_bankruptcy_data.mat
+
+
+exit $?
+
+# Display end date and return value
+
+echo
+echo "================== done ====================="
+echo "Date:   $(date)"
+echo "retval: $retval"
+echo
+
+# vim: syntax=sh

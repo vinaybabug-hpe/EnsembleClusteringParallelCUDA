@@ -1,0 +1,180 @@
+
+================== nodes ====================
+n349
+n349
+n349
+n349
+n349
+n349
+n349
+n349
+
+================= job info  =================
+Date:   Thu Apr  6 22:54:51 UTC 2017
+Job ID: 16860435.pod
+Queue:  H30G
+Cores:  8
+
+=================== run =====================
+
+2. Running on GPU  0 (Tesla K40m)
+	Starting Ensemble Clustering on CUDA for total of 66 partitions...
+
+***************************************************************************
+				PST
+***************************************************************************
+
+
+name: Parameters for a clustering project
+kList:
+	1
+	2
+	5
+
+Model List:
+	kmeanseuc
+	kmeanscit
+	kmeanscor
+	kmeanscos
+	medoideuc
+	medoidcit
+	medoidcor
+	medoidcos
+	spectraleuc
+	spectralcit
+	spectralcor
+	spectralcos
+	aggeucwar
+	aggeucavg
+	aggeuccom
+	aggcitavg
+	aggcitcom
+	aggcoravg
+	aggcorcom
+	aggcosavg
+	aggcoscom
+	gmm
+
+outlierCutoff: 3.000000
+outlierMetric: mahal
+
+Starting Ensemble Clustering on CUDA...
+
+
+Starting pre-processing...
+
+
+Done pre-processing...
+
+
+0 objects were removed from original dataset...
+
+***************************************************************************
+Time spent in pre-processing for 13312 objects is 8.200000
+***************************************************************************
+
+
+
+Generating boot indices...
+
+***************************************************************************
+			Generating cluster ensemble
+***************************************************************************
+
+
+	Running Ensemble with 1 Bootstrap...
+
+	Time spent in       kmeanseuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       kmeanseuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+	Time spent in       kmeanseuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+	Time spent in       medoideuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       medoideuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0900
+	Time spent in       medoideuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.1000
+	Time spent in     spectraleuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in     spectraleuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 94.5100
+	Time spent in     spectraleuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 128.0000
+	Time spent in       aggeucwar (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       aggeucwar (model),    0 (bootstrap),   2 (k),  1-Rep  is: 95.0800
+	Time spent in       aggeucwar (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+	Time spent in       aggeucavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       aggeucavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 90.8100
+	Time spent in       aggeucavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+	Time spent in       aggeuccom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       aggeuccom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 71.4900
+	Time spent in       aggeuccom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+	Time spent in       medoidcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       medoidcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0900
+	Time spent in       medoidcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0700
+	Time spent in     spectralcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in     spectralcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 92.2700
+	Time spent in     spectralcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 124.6600
+	Time spent in       kmeanscos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       kmeanscos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+	Time spent in       kmeanscos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+	Time spent in       aggcosavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       aggcosavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 65.5400
+	Time spent in       aggcosavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+	Time spent in       aggcoscom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       aggcoscom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 67.6800
+	Time spent in       aggcoscom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+	Time spent in       medoidcor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       medoidcor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0600
+	Time spent in       medoidcor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 8.1900
+	Time spent in       kmeanscor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       kmeanscor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+	Time spent in       kmeanscor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+	Time spent in       aggcoravg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       aggcoravg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 67.0700
+	Time spent in       aggcoravg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+	Time spent in       aggcorcom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       aggcorcom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 46.2000
+	Time spent in       aggcorcom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+	Time spent in     spectralcor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in     spectralcor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 80.7400
+	Time spent in     spectralcor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 113.4300
+	Time spent in       aggcitcom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       aggcitcom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 46.2900
+	Time spent in       aggcitcom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+	Time spent in       kmeanscit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       kmeanscit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+	Time spent in       kmeanscit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+	Time spent in       medoidcit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       medoidcit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+	Time spent in       medoidcit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.2000
+	Time spent in     spectralcit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in     spectralcit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 80.8400
+	Time spent in     spectralcit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 134.2500
+	Time spent in       aggcitavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in       aggcitavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 46.2600
+	Time spent in       aggcitavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+	Time spent in             gmm (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+	Time spent in             gmm (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+	Time spent in             gmm (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+
+***************************************************************************
+Time spent in Create Ensemble Clusters for 13312 objects is 1454.150000
+***************************************************************************
+
+
+***************************************************************************
+			Extracting Solution from ensemble
+***************************************************************************
+
+
+	Constructing co-association matrix from 66 partitions...
+	Clustering the co-association matrix...
+
+***************************************************************************
+Time spent in Extracting Solution from ensemble for 13312 objects is 1004.300000
+***************************************************************************
+
+
+
+	...ensemble generation complete :)
+
+
+
+***************************************************************************
+Time spent in Ensemble Clustering for 13312 objects is 2466.650000
+***************************************************************************
+

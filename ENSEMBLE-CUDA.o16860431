@@ -1,0 +1,90 @@
+
+================== nodes ====================
+n270
+n270
+n270
+n270
+n270
+n270
+n270
+n270
+
+================= job info  =================
+Date:   Thu Apr  6 22:54:48 UTC 2017
+Job ID: 16860431.pod
+Queue:  H30G
+Cores:  8
+
+=================== run =====================
+cluster_ensemble_create: src/cluster_ensemble_create.cu:507: int main(int, char**): Assertion `distmatrix_device != __null' failed.
+
+2. Running on GPU  0 (Tesla K40m)
+	Starting Ensemble Clustering on CUDA for total of 66 partitions...
+
+***************************************************************************
+				PST
+***************************************************************************
+
+
+name: Parameters for a clustering project
+kList:
+	1
+	2
+	5
+
+Model List:
+	kmeanseuc
+	kmeanscit
+	kmeanscor
+	kmeanscos
+	medoideuc
+	medoidcit
+	medoidcor
+	medoidcos
+	spectraleuc
+	spectralcit
+	spectralcor
+	spectralcos
+	aggeucwar
+	aggeucavg
+	aggeuccom
+	aggcitavg
+	aggcitcom
+	aggcoravg
+	aggcorcom
+	aggcosavg
+	aggcoscom
+	gmm
+
+outlierCutoff: 3.000000
+outlierMetric: mahal
+
+Starting Ensemble Clustering on CUDA...
+
+
+Starting pre-processing...
+
+8. @texIdx error: invalid argument
+
+
+Done pre-processing...
+
+
+16384 objects were removed from original dataset...
+
+***************************************************************************
+Time spent in pre-processing for 16384 objects is 0.650000
+***************************************************************************
+
+
+
+Generating boot indices...
+
+***************************************************************************
+			Generating cluster ensemble
+***************************************************************************
+
+
+	Running Ensemble with 1 Bootstrap...
+
+/var/spool/torque/mom_priv/jobs/16860431.pod.SC: line 44: 661292 Aborted                 ./cluster_ensemble_create dataset/testcase1/PST_all_nBoot_1.mat dataset/testcase1/ens_combined_4x5_16384.mat "Risky Decision Making Data From IGT" dataset/testcase1/output_ens_combined_4x5_16384_data.mat

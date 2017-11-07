@@ -1,0 +1,113 @@
+/*
+ ============================================================================
+ Name        : ensembleClust_pall_cuda.cu
+ Author      : Vinay B Gavirangaswamy
+ Version     :
+ Copyright   :  This program is free software: you can redistribute it and/or modify
+    			it under the terms of the GNU General Public License as published by
+    			the Free Software Foundation, either version 3 of the License, or
+    			(at your option) any later version.
+
+    			This program is distributed in the hope that it will be useful,
+    			but WITHOUT ANY WARRANTY; without even the implied warranty of
+    			MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    			GNU General Public License for more details.
+
+
+    			You should have received a copy of the GNU General Public License
+    			along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ Description : Matlab function for interacting with mathworks environment.
+ ============================================================================
+ */
+
+#include <iostream>
+#include <numeric>
+#include "mex.h"
+#include <stdlib.h> /* needed to define exit() */
+#include <unistd.h> /* needed to define getpid() */
+#include <stdio.h> /* needed for printf() */
+#include <sys/types.h>
+#include <assert.h>
+#include <sys/errno.h>
+#include <fcntl.h>
+#include <cuda.h>
+#include <helper_cuda.h>
+#include <helper_string.h>
+#include <cuda_runtime.h>
+#include "common/wrapper.h"
+#include "common/wrapperFuncs.h"
+
+/*
+ * Host code
+ */
+void mexFunction(int nlhs, mxArray *plhs[],
+                 int nrhs, mxArray const *prhs[])
+{
+
+	#define NUM_CLUSTERS		prhs[0]
+	#define SIGMA				prhs[1]
+	#define DISTANCE_TYPE		prhs[2]
+	#define DATA_IN				prhs[3]
+
+
+	int num_clusters = 0;
+	double sigma = 0;
+	int *idxs;
+	int nrows = mxGetM(DATA_IN);
+	int ncols = mxGetN(DATA_IN);
+	double *x_actual_data = mxGetPr(DATA_IN);
+	char *dist_type;
+
+	plhs[0] = mxCreateNumericMatrix(1, nrows, mxINT32_CLASS, mxREAL);
+	idxs  = (int*) mxGetData(plhs[0]);
+
+	/*
+	 * variables used to make function call to matlab functions
+	 */
+	float *data1d = (float*)malloc(nrows*ncols * sizeof(float));
+
+	num_clusters = mxGetScalar(NUM_CLUSTERS);
+//	linkage_type = mxArrayToString(LINKAGE_TYPE);
+	sigma = mxGetScalar(SIGMA);
+	dist_type = mxArrayToString(DISTANCE_TYPE);
+
+	mexPrintf("\n1. Input To CUDA: clusters = %d sigma = %f dist = %s\n", num_clusters, sigma, dist_type);
+
+	/*
+	 * Transpose X as data stored in single dimensional array
+	 * is row major not column
+	 */
+
+	for (int i = 0; i < nrows; i++) {
+		for (int j = 0; j < ncols; j++) {
+			data1d[i * ncols + j] = x_actual_data[i + j * nrows];
+		}
+	}
+
+	clock_t begin = clock();
+
+	mex2cuw_spectral_adapter(num_clusters, nrows, ncols, data1d, NULL, dist_type, idxs);
+
+	clock_t end = clock();
+	double time_spent = (double)(end - begin)/(double)CLOCKS_PER_SEC;
+
+	mexPrintf("\n");
+//    // Print a message describing what the sample does.
+    mexPrintf("***************************************************************************\n");
+	mexPrintf("\nTime spent to cluster %d objects using Agglomerative Clustering is %f\n", nrows, time_spent);
+//    printf("=%d blocks are launched!!! (%d from the GPU)\n", sum, sum-2);
+    mexPrintf("***************************************************************************\n\n");
+
+	// Calling cuda wrapper that in turn call gpu device code.
+//	mex2CudaWrapper();
+
+//	for(int i =0; i<nrows; i++)
+//			idxs[i] = i;
+
+
+	return;
+}
+
+
+
+

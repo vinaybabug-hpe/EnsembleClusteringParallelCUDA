@@ -1,0 +1,2005 @@
+
+================== nodes ====================
+n269
+n269
+n269
+n269
+n269
+n269
+n269
+n269
+
+================= job info  =================
+Date:   Sun Mar 26 00:48:31 UTC 2017
+Job ID: 16855665.pod
+Queue:  H30G
+Cores:  8
+which: no mpirun in (/public/apps/openblas/0.2.13/gcc.4.7.2/bin:/public/apps/cuda/7.5/bin:/public/apps/gcc/4.7.2/libexec/gcc/x86_64-redhat-linux/4.7.2:/public/apps/gcc/4.7.2/bin:/public/apps/mdcs/R2015b/bin:/public/apps/cmake/3.3.1/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/vinaya/bin)
+mpirun: 
+
+=================== run =====================
+
+2. Running on GPU  0 (Tesla K40m)
+***************************************************************************
+				PST
+***************************************************************************
+
+
+name: Parameters for a clustering project
+kList:
+	1
+	2
+	5
+
+Model List:
+	kmeanseuc
+	kmeanscit
+	kmeanscor
+	kmeanscos
+	medoideuc
+	medoidcit
+	medoidcor
+	medoidcos
+	spectraleuc
+	spectralcit
+	spectralcor
+	spectralcos
+	aggeucwar
+	aggeucavg
+	aggeuccom
+	aggcitavg
+	aggcitcom
+	aggcoravg
+	aggcorcom
+	aggcosavg
+	aggcoscom
+	gmm
+
+outlierCutoff: 3.000000
+outlierMetric: mahal
+
+Starting Ensemble Clustering on CUDA...
+
+
+Starting pre-processing...
+
+
+Done pre-processing...
+
+
+0 objects were removed from original dataset...
+
+
+Generating boot indices...
+
+***************************************************************************
+			Generating cluster ensemble
+***************************************************************************
+
+
+3. Running Ensemble with 5 Bootstrap...
+Time spent in       kmeanseuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.2200
+Time spent in     spectraleuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in     spectralcit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in     spectralcor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in     spectralcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucwar (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucwar (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggeucavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggeuccom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcitavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcitcom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoravg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoravg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcosavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoscom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in             gmm (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectraleuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in     spectraleuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in     spectralcit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.1400
+Time spent in     spectralcor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in       aggeucwar (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggeucwar (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggeucavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggeuccom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcitcom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoravg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcorcom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcosavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoscom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in             gmm (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in     spectraleuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in     spectralcit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in     spectralcor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in     spectralcos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in     spectralcos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucwar (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggeucwar (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggeucavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggeuccom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggeuccom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcitcom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcitcom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoravg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcorcom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcosavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoscom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in             gmm (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoideuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in     spectraleuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in     spectralcit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in     spectralcor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in     spectralcos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucwar (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       aggeucwar (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeuccom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcitavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcitcom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoravg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoravg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcosavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoscom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in             gmm (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoideuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectraleuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in     spectraleuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in     spectralcit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in     spectralcor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectralcos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in     spectralcos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucwar (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucwar (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggeucavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggeuccom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcitcom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoravg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcorcom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcosavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoscom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoscom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in             gmm (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+
+***************************************************************************
+Time spent in Create Ensemble Clusters for 100 objects is 2.300000
+***************************************************************************
+
+...ensemble generation complete.
+
+
+2. Running on GPU  0 (Tesla K40m)
+***************************************************************************
+				PST
+***************************************************************************
+
+
+name: Parameters for a clustering project
+kList:
+	1
+	2
+	5
+
+Model List:
+	kmeanseuc
+	kmeanscit
+	kmeanscor
+	kmeanscos
+	medoideuc
+	medoidcit
+	medoidcor
+	medoidcos
+	spectraleuc
+	spectralcit
+	spectralcor
+	spectralcos
+	aggeucwar
+	aggeucavg
+	aggeuccom
+	aggcitavg
+	aggcitcom
+	aggcoravg
+	aggcorcom
+	aggcosavg
+	aggcoscom
+	gmm
+
+outlierCutoff: 3.000000
+outlierMetric: mahal
+
+Starting Ensemble Clustering on CUDA...
+
+
+Starting pre-processing...
+
+
+Done pre-processing...
+
+
+0 objects were removed from original dataset...
+
+
+Generating boot indices...
+
+***************************************************************************
+			Generating cluster ensemble
+***************************************************************************
+
+
+3. Running Ensemble with 5 Bootstrap...
+Time spent in       kmeanseuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoideuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.2500
+Time spent in     spectraleuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in     spectralcit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in     spectralcit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0800
+Time spent in     spectralcor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in     spectralcor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in     spectralcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in     spectralcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0900
+Time spent in       aggeucwar (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggeucwar (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggeucavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       aggeucavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeuccom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggeuccom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcitavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcitavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcitcom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcitcom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in       aggcoravg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoravg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcorcom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcorcom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcosavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcosavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in       aggcoscom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoscom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in             gmm (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0600
+Time spent in       kmeanseuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoideuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in     spectraleuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in     spectralcit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in     spectralcit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in     spectralcor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in     spectralcor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0600
+Time spent in     spectralcos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0600
+Time spent in     spectralcos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggeucwar (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       aggeucwar (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggeucavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggeuccom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggeuccom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in       aggcitavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcitavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcitcom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcitcom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoravg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoravg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcorcom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcorcom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcosavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       aggcosavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoscom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoscom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in             gmm (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoideuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in     spectraleuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in     spectraleuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.1200
+Time spent in     spectralcit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in     spectralcit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.1400
+Time spent in     spectralcor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in     spectralcor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.1100
+Time spent in     spectralcos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in     spectralcos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       aggeucwar (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggeucwar (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       aggeucavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeuccom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggeuccom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in       aggcitavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcitavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcitcom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcitcom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoravg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoravg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcorcom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       aggcorcom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcosavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcosavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoscom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoscom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in             gmm (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanseuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0600
+Time spent in     spectraleuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0900
+Time spent in     spectralcit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0600
+Time spent in     spectralcit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in     spectralcor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in     spectralcos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in     spectralcos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggeucwar (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       aggeucwar (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggeucavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       aggeucavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggeuccom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggeuccom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcitavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       aggcitavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcitcom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       aggcitcom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoravg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoravg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcorcom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcorcom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcosavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcosavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in       aggcoscom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoscom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in             gmm (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in     spectraleuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.1200
+Time spent in     spectralcit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in     spectralcit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in     spectralcor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in     spectralcos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0600
+Time spent in       aggeucwar (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggeucwar (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggeucavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggeucavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggeuccom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggeuccom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcitavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       aggcitavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcitcom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcitcom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcoravg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoravg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcorcom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcorcom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       aggcosavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       aggcosavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoscom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       aggcoscom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in             gmm (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+
+***************************************************************************
+Time spent in Create Ensemble Clusters for 200 objects is 5.230000
+***************************************************************************
+
+...ensemble generation complete.
+
+
+2. Running on GPU  0 (Tesla K40m)
+***************************************************************************
+				PST
+***************************************************************************
+
+
+name: Parameters for a clustering project
+kList:
+	1
+	2
+	5
+
+Model List:
+	kmeanseuc
+	kmeanscit
+	kmeanscor
+	kmeanscos
+	medoideuc
+	medoidcit
+	medoidcor
+	medoidcos
+	spectraleuc
+	spectralcit
+	spectralcor
+	spectralcos
+	aggeucwar
+	aggeucavg
+	aggeuccom
+	aggcitavg
+	aggcitcom
+	aggcoravg
+	aggcorcom
+	aggcosavg
+	aggcoscom
+	gmm
+
+outlierCutoff: 3.000000
+outlierMetric: mahal
+
+Starting Ensemble Clustering on CUDA...
+
+
+Starting pre-processing...
+
+
+Done pre-processing...
+
+
+0 objects were removed from original dataset...
+
+
+Generating boot indices...
+
+***************************************************************************
+			Generating cluster ensemble
+***************************************************************************
+
+
+3. Running Ensemble with 5 Bootstrap...
+Time spent in       kmeanseuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.2800
+Time spent in     spectraleuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.1200
+Time spent in     spectralcit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0800
+Time spent in     spectralcit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0800
+Time spent in     spectralcor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0900
+Time spent in     spectralcor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0900
+Time spent in     spectralcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.1200
+Time spent in       aggeucwar (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0800
+Time spent in       aggeucwar (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0800
+Time spent in       aggeucavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       aggeucavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggeuccom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggeuccom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       aggcitavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       aggcitcom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitcom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoravg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoravg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcorcom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       aggcorcom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcosavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       aggcosavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoscom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoscom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in             gmm (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in     spectraleuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectraleuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0900
+Time spent in     spectralcit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0600
+Time spent in     spectralcit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.1100
+Time spent in     spectralcor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.1300
+Time spent in     spectralcos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0700
+Time spent in       aggeucwar (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0900
+Time spent in       aggeucwar (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0700
+Time spent in       aggeucavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       aggeucavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggeuccom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggeuccom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       aggcitavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitcom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitcom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoravg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoravg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcorcom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       aggcorcom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcosavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcosavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       aggcoscom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoscom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoideuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in     spectraleuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0800
+Time spent in     spectraleuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.2400
+Time spent in     spectralcit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.1500
+Time spent in     spectralcor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.1100
+Time spent in     spectralcos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0800
+Time spent in       aggeucwar (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0800
+Time spent in       aggeucwar (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0800
+Time spent in       aggeucavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggeucavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggeuccom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggeuccom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       aggcitavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitcom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitcom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoravg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoravg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       aggcorcom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcorcom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcosavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       aggcosavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoscom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoscom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in             gmm (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectraleuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectraleuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0800
+Time spent in     spectralcit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.1800
+Time spent in     spectralcor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.1100
+Time spent in     spectralcos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.1200
+Time spent in       aggeucwar (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0800
+Time spent in       aggeucwar (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0800
+Time spent in       aggeucavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggeucavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggeuccom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggeuccom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       aggcitavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitcom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitcom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoravg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoravg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcorcom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       aggcorcom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcosavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       aggcosavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoscom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoscom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0600
+Time spent in       kmeanseuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectraleuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0900
+Time spent in     spectralcit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0700
+Time spent in     spectralcor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0800
+Time spent in     spectralcor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0900
+Time spent in     spectralcos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0800
+Time spent in     spectralcos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.1000
+Time spent in       aggeucwar (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0800
+Time spent in       aggeucwar (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0700
+Time spent in       aggeucavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggeucavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       aggeuccom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggeuccom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       aggcitcom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcitcom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       aggcoravg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoravg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcorcom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcorcom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       aggcosavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcosavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0600
+Time spent in       aggcoscom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       aggcoscom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in             gmm (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in             gmm (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+
+***************************************************************************
+Time spent in Create Ensemble Clusters for 300 objects is 8.910000
+***************************************************************************
+
+...ensemble generation complete.
+
+
+2. Running on GPU  0 (Tesla K40m)
+***************************************************************************
+				PST
+***************************************************************************
+
+
+name: Parameters for a clustering project
+kList:
+	1
+	2
+	5
+
+Model List:
+	kmeanseuc
+	kmeanscit
+	kmeanscor
+	kmeanscos
+	medoideuc
+	medoidcit
+	medoidcor
+	medoidcos
+	spectraleuc
+	spectralcit
+	spectralcor
+	spectralcos
+	aggeucwar
+	aggeucavg
+	aggeuccom
+	aggcitavg
+	aggcitcom
+	aggcoravg
+	aggcorcom
+	aggcosavg
+	aggcoscom
+	gmm
+
+outlierCutoff: 3.000000
+outlierMetric: mahal
+
+Starting Ensemble Clustering on CUDA...
+
+
+Starting pre-processing...
+
+
+Done pre-processing...
+
+
+0 objects were removed from original dataset...
+
+
+Generating boot indices...
+
+***************************************************************************
+			Generating cluster ensemble
+***************************************************************************
+
+
+3. Running Ensemble with 5 Bootstrap...
+Time spent in       kmeanseuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanseuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoideuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       medoideuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0600
+Time spent in       medoidcit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       medoidcit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in       medoidcor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       medoidcor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in       medoidcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectraleuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 1.7100
+Time spent in     spectraleuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.9700
+Time spent in     spectralcit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 1.7100
+Time spent in     spectralcit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.9600
+Time spent in     spectralcor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 1.4600
+Time spent in     spectralcor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.9700
+Time spent in     spectralcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 1.4000
+Time spent in     spectralcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.9700
+Time spent in       aggeucwar (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.7400
+Time spent in       aggeucwar (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.7600
+Time spent in       aggeucavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.6600
+Time spent in       aggeucavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.6800
+Time spent in       aggeuccom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.6200
+Time spent in       aggeuccom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.6300
+Time spent in       aggcitavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.6600
+Time spent in       aggcitavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.6600
+Time spent in       aggcitcom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.6200
+Time spent in       aggcitcom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.6300
+Time spent in       aggcoravg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.6700
+Time spent in       aggcoravg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.6600
+Time spent in       aggcorcom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.6500
+Time spent in       aggcorcom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.6500
+Time spent in       aggcosavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.7100
+Time spent in       aggcosavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.7200
+Time spent in       aggcoscom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.6200
+Time spent in       aggcoscom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.6300
+Time spent in             gmm (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in             gmm (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       kmeanseuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       kmeanscor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       medoideuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       medoidcit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       medoidcos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       medoidcos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectraleuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 2.0500
+Time spent in     spectraleuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 1.1100
+Time spent in     spectralcit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 1.4500
+Time spent in     spectralcit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.9700
+Time spent in     spectralcor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 1.6100
+Time spent in     spectralcor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.9800
+Time spent in     spectralcos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 1.2200
+Time spent in     spectralcos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.9700
+Time spent in       aggeucwar (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.7500
+Time spent in       aggeucwar (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.7500
+Time spent in       aggeucavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.6700
+Time spent in       aggeucavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.6800
+Time spent in       aggeuccom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.6400
+Time spent in       aggeuccom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.6300
+Time spent in       aggcitavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.6700
+Time spent in       aggcitavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.6700
+Time spent in       aggcitcom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.6300
+Time spent in       aggcitcom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.6400
+Time spent in       aggcoravg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.6500
+Time spent in       aggcoravg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.6700
+Time spent in       aggcorcom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.6400
+Time spent in       aggcorcom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.6500
+Time spent in       aggcosavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.7200
+Time spent in       aggcosavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.7200
+Time spent in       aggcoscom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.6200
+Time spent in       aggcoscom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.6200
+Time spent in             gmm (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanseuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       medoideuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0600
+Time spent in       medoidcit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in       medoidcos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in       medoidcos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in     spectraleuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 1.5600
+Time spent in     spectraleuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.9700
+Time spent in     spectralcit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 1.1900
+Time spent in     spectralcit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 1.1100
+Time spent in     spectralcor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 1.6700
+Time spent in     spectralcor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.9700
+Time spent in     spectralcos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 1.2900
+Time spent in     spectralcos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 1.0800
+Time spent in       aggeucwar (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.7500
+Time spent in       aggeucwar (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.7400
+Time spent in       aggeucavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.6700
+Time spent in       aggeucavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.6600
+Time spent in       aggeuccom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.6300
+Time spent in       aggeuccom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.6200
+Time spent in       aggcitavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.6700
+Time spent in       aggcitavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.6600
+Time spent in       aggcitcom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.6300
+Time spent in       aggcitcom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.6300
+Time spent in       aggcoravg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.6600
+Time spent in       aggcoravg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.6600
+Time spent in       aggcorcom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.6300
+Time spent in       aggcorcom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.6300
+Time spent in       aggcosavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.7200
+Time spent in       aggcosavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.7300
+Time spent in       aggcoscom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.6300
+Time spent in       aggcoscom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.6200
+Time spent in             gmm (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in             gmm (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0600
+Time spent in       kmeanseuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanseuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       medoideuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       medoidcit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       medoidcor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in       medoidcos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectraleuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 1.3100
+Time spent in     spectraleuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.9700
+Time spent in     spectralcit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 1.2400
+Time spent in     spectralcit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.9700
+Time spent in     spectralcor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 1.6000
+Time spent in     spectralcor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.9600
+Time spent in     spectralcos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 1.5300
+Time spent in     spectralcos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.9800
+Time spent in       aggeucwar (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.7500
+Time spent in       aggeucwar (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.7400
+Time spent in       aggeucavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.6800
+Time spent in       aggeucavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.6700
+Time spent in       aggeuccom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.6300
+Time spent in       aggeuccom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.6400
+Time spent in       aggcitavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.6700
+Time spent in       aggcitavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.6700
+Time spent in       aggcitcom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.6400
+Time spent in       aggcitcom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.6300
+Time spent in       aggcoravg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.6800
+Time spent in       aggcoravg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.6700
+Time spent in       aggcorcom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.6500
+Time spent in       aggcorcom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.6400
+Time spent in       aggcosavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.7200
+Time spent in       aggcosavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.7200
+Time spent in       aggcoscom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.6300
+Time spent in       aggcoscom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.6300
+Time spent in             gmm (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in             gmm (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       kmeanscit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       kmeanscos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       medoideuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0100
+Time spent in       medoidcit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       medoidcor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in       medoidcos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       medoidcos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in     spectraleuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 1.2500
+Time spent in     spectraleuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.9600
+Time spent in     spectralcit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 2.0000
+Time spent in     spectralcit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.9700
+Time spent in     spectralcor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 1.3400
+Time spent in     spectralcor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.9600
+Time spent in     spectralcos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 1.2400
+Time spent in     spectralcos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.9600
+Time spent in       aggeucwar (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.7500
+Time spent in       aggeucwar (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.7400
+Time spent in       aggeucavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.6700
+Time spent in       aggeucavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.6700
+Time spent in       aggeuccom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.6400
+Time spent in       aggeuccom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.6300
+Time spent in       aggcitavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.6700
+Time spent in       aggcitavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.6800
+Time spent in       aggcitcom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.6400
+Time spent in       aggcitcom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.6400
+Time spent in       aggcoravg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.6600
+Time spent in       aggcoravg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.6800
+Time spent in       aggcorcom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.6300
+Time spent in       aggcorcom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.6400
+Time spent in       aggcosavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.7100
+Time spent in       aggcosavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.7100
+Time spent in       aggcoscom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.5900
+Time spent in       aggcoscom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.5800
+Time spent in             gmm (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in             gmm (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+
+***************************************************************************
+Time spent in Create Ensemble Clusters for 1000 objects is 111.360000
+***************************************************************************
+
+...ensemble generation complete.
+
+
+2. Running on GPU  0 (Tesla K40m)
+***************************************************************************
+				PST
+***************************************************************************
+
+
+name: Parameters for a clustering project
+kList:
+	1
+	2
+	5
+
+Model List:
+	kmeanseuc
+	kmeanscit
+	kmeanscor
+	kmeanscos
+	medoideuc
+	medoidcit
+	medoidcor
+	medoidcos
+	spectraleuc
+	spectralcit
+	spectralcor
+	spectralcos
+	aggeucwar
+	aggeucavg
+	aggeuccom
+	aggcitavg
+	aggcitcom
+	aggcoravg
+	aggcorcom
+	aggcosavg
+	aggcoscom
+	gmm
+
+outlierCutoff: 3.000000
+outlierMetric: mahal
+
+Starting Ensemble Clustering on CUDA...
+
+
+Starting pre-processing...
+
+
+Done pre-processing...
+
+
+0 objects were removed from original dataset...
+
+
+Generating boot indices...
+
+***************************************************************************
+			Generating cluster ensemble
+***************************************************************************
+
+
+3. Running Ensemble with 5 Bootstrap...
+Time spent in       kmeanseuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0600
+Time spent in       kmeanseuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanscit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0800
+Time spent in       kmeanscit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanscor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0800
+Time spent in       kmeanscor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0700
+Time spent in       kmeanscos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in       kmeanscos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoideuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.1600
+Time spent in       medoideuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.4600
+Time spent in       medoidcit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.3200
+Time spent in       medoidcit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.4000
+Time spent in       medoidcor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.3300
+Time spent in       medoidcor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.2900
+Time spent in       medoidcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.1700
+Time spent in       medoidcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.0900
+Time spent in     spectraleuc (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    0 (bootstrap),   2 (k),  1-Rep  is: 19.1900
+Time spent in     spectraleuc (model),    0 (bootstrap),   5 (k),  1-Rep  is: 16.4900
+Time spent in     spectralcit (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    0 (bootstrap),   2 (k),  1-Rep  is: 23.0100
+Time spent in     spectralcit (model),    0 (bootstrap),   5 (k),  1-Rep  is: 16.4800
+Time spent in     spectralcor (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    0 (bootstrap),   2 (k),  1-Rep  is: 25.0300
+Time spent in     spectralcor (model),    0 (bootstrap),   5 (k),  1-Rep  is: 16.4700
+Time spent in     spectralcos (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    0 (bootstrap),   2 (k),  1-Rep  is: 16.6700
+Time spent in     spectralcos (model),    0 (bootstrap),   5 (k),  1-Rep  is: 16.6900
+Time spent in       aggeucwar (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    0 (bootstrap),   2 (k),  1-Rep  is: 16.8000
+Time spent in       aggeucwar (model),    0 (bootstrap),   5 (k),  1-Rep  is: 16.7800
+Time spent in       aggeucavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 16.8000
+Time spent in       aggeucavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 16.8100
+Time spent in       aggeuccom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 16.0400
+Time spent in       aggeuccom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 16.0300
+Time spent in       aggcitavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 16.6900
+Time spent in       aggcitavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 16.6900
+Time spent in       aggcitcom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 15.9900
+Time spent in       aggcitcom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 15.9700
+Time spent in       aggcoravg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 16.6000
+Time spent in       aggcoravg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 16.6200
+Time spent in       aggcorcom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 15.9800
+Time spent in       aggcorcom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 16.0000
+Time spent in       aggcosavg (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    0 (bootstrap),   2 (k),  1-Rep  is: 18.0500
+Time spent in       aggcosavg (model),    0 (bootstrap),   5 (k),  1-Rep  is: 18.0600
+Time spent in       aggcoscom (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    0 (bootstrap),   2 (k),  1-Rep  is: 14.8300
+Time spent in       aggcoscom (model),    0 (bootstrap),   5 (k),  1-Rep  is: 14.8400
+Time spent in             gmm (model),    0 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    0 (bootstrap),   2 (k),  1-Rep  is: 0.3500
+Time spent in             gmm (model),    0 (bootstrap),   5 (k),  1-Rep  is: 0.4300
+Time spent in       kmeanseuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanseuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       kmeanscit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0600
+Time spent in       kmeanscit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0900
+Time spent in       kmeanscor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanscor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0300
+Time spent in       kmeanscos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanscos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoideuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.3400
+Time spent in       medoideuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.7700
+Time spent in       medoidcit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.3000
+Time spent in       medoidcit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.2900
+Time spent in       medoidcor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.1800
+Time spent in       medoidcor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.4800
+Time spent in       medoidcos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.1600
+Time spent in       medoidcos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.0600
+Time spent in     spectraleuc (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    1 (bootstrap),   2 (k),  1-Rep  is: 14.4400
+Time spent in     spectraleuc (model),    1 (bootstrap),   5 (k),  1-Rep  is: 16.4800
+Time spent in     spectralcit (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    1 (bootstrap),   2 (k),  1-Rep  is: 21.9900
+Time spent in     spectralcit (model),    1 (bootstrap),   5 (k),  1-Rep  is: 16.5000
+Time spent in     spectralcor (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    1 (bootstrap),   2 (k),  1-Rep  is: 16.9600
+Time spent in     spectralcor (model),    1 (bootstrap),   5 (k),  1-Rep  is: 16.4800
+Time spent in     spectralcos (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    1 (bootstrap),   2 (k),  1-Rep  is: 18.1900
+Time spent in     spectralcos (model),    1 (bootstrap),   5 (k),  1-Rep  is: 16.7000
+Time spent in       aggeucwar (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    1 (bootstrap),   2 (k),  1-Rep  is: 16.7000
+Time spent in       aggeucwar (model),    1 (bootstrap),   5 (k),  1-Rep  is: 16.6900
+Time spent in       aggeucavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 16.8700
+Time spent in       aggeucavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 16.8800
+Time spent in       aggeuccom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 16.0800
+Time spent in       aggeuccom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 16.1000
+Time spent in       aggcitavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 16.7500
+Time spent in       aggcitavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 16.7700
+Time spent in       aggcitcom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 16.0200
+Time spent in       aggcitcom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 16.0200
+Time spent in       aggcoravg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 16.5800
+Time spent in       aggcoravg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 16.6000
+Time spent in       aggcorcom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 15.8400
+Time spent in       aggcorcom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 15.8700
+Time spent in       aggcosavg (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    1 (bootstrap),   2 (k),  1-Rep  is: 18.0700
+Time spent in       aggcosavg (model),    1 (bootstrap),   5 (k),  1-Rep  is: 18.0900
+Time spent in       aggcoscom (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    1 (bootstrap),   2 (k),  1-Rep  is: 15.2000
+Time spent in       aggcoscom (model),    1 (bootstrap),   5 (k),  1-Rep  is: 15.2200
+Time spent in             gmm (model),    1 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    1 (bootstrap),   2 (k),  1-Rep  is: 0.3500
+Time spent in             gmm (model),    1 (bootstrap),   5 (k),  1-Rep  is: 0.4300
+Time spent in       kmeanseuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       kmeanseuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0700
+Time spent in       kmeanscit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanscit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanscor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       kmeanscor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       kmeanscos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in       kmeanscos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0100
+Time spent in       medoideuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.1900
+Time spent in       medoideuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.8200
+Time spent in       medoidcit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.1800
+Time spent in       medoidcit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.4000
+Time spent in       medoidcor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.1200
+Time spent in       medoidcor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.7000
+Time spent in       medoidcos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.3300
+Time spent in       medoidcos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in     spectraleuc (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    2 (bootstrap),   2 (k),  1-Rep  is: 13.4300
+Time spent in     spectraleuc (model),    2 (bootstrap),   5 (k),  1-Rep  is: 16.4800
+Time spent in     spectralcit (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    2 (bootstrap),   2 (k),  1-Rep  is: 14.9300
+Time spent in     spectralcit (model),    2 (bootstrap),   5 (k),  1-Rep  is: 16.4800
+Time spent in     spectralcor (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    2 (bootstrap),   2 (k),  1-Rep  is: 16.4800
+Time spent in     spectralcor (model),    2 (bootstrap),   5 (k),  1-Rep  is: 16.4900
+Time spent in     spectralcos (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    2 (bootstrap),   2 (k),  1-Rep  is: 18.1900
+Time spent in     spectralcos (model),    2 (bootstrap),   5 (k),  1-Rep  is: 16.7000
+Time spent in       aggeucwar (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    2 (bootstrap),   2 (k),  1-Rep  is: 16.7600
+Time spent in       aggeucwar (model),    2 (bootstrap),   5 (k),  1-Rep  is: 16.7600
+Time spent in       aggeucavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 16.8500
+Time spent in       aggeucavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 16.8600
+Time spent in       aggeuccom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 16.0100
+Time spent in       aggeuccom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 16.0200
+Time spent in       aggcitavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 16.7400
+Time spent in       aggcitavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 16.7300
+Time spent in       aggcitcom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 16.0300
+Time spent in       aggcitcom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 16.0200
+Time spent in       aggcoravg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 16.5100
+Time spent in       aggcoravg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 16.5300
+Time spent in       aggcorcom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 15.8000
+Time spent in       aggcorcom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 15.8200
+Time spent in       aggcosavg (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    2 (bootstrap),   2 (k),  1-Rep  is: 17.9700
+Time spent in       aggcosavg (model),    2 (bootstrap),   5 (k),  1-Rep  is: 17.9900
+Time spent in       aggcoscom (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    2 (bootstrap),   2 (k),  1-Rep  is: 15.1400
+Time spent in       aggcoscom (model),    2 (bootstrap),   5 (k),  1-Rep  is: 15.1600
+Time spent in             gmm (model),    2 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    2 (bootstrap),   2 (k),  1-Rep  is: 0.3600
+Time spent in             gmm (model),    2 (bootstrap),   5 (k),  1-Rep  is: 0.4300
+Time spent in       kmeanseuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       kmeanseuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0700
+Time spent in       kmeanscit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0200
+Time spent in       kmeanscit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       kmeanscor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       kmeanscor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0400
+Time spent in       kmeanscos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.0700
+Time spent in       kmeanscos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       medoideuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.1900
+Time spent in       medoideuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.3600
+Time spent in       medoidcit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.1500
+Time spent in       medoidcit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.3000
+Time spent in       medoidcor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.4600
+Time spent in       medoidcor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.7000
+Time spent in       medoidcos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.2600
+Time spent in       medoidcos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in     spectraleuc (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    3 (bootstrap),   2 (k),  1-Rep  is: 13.4300
+Time spent in     spectraleuc (model),    3 (bootstrap),   5 (k),  1-Rep  is: 16.4900
+Time spent in     spectralcit (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    3 (bootstrap),   2 (k),  1-Rep  is: 19.9900
+Time spent in     spectralcit (model),    3 (bootstrap),   5 (k),  1-Rep  is: 16.4700
+Time spent in     spectralcor (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    3 (bootstrap),   2 (k),  1-Rep  is: 14.4500
+Time spent in     spectralcor (model),    3 (bootstrap),   5 (k),  1-Rep  is: 16.5000
+Time spent in     spectralcos (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    3 (bootstrap),   2 (k),  1-Rep  is: 19.1800
+Time spent in     spectralcos (model),    3 (bootstrap),   5 (k),  1-Rep  is: 16.7200
+Time spent in       aggeucwar (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    3 (bootstrap),   2 (k),  1-Rep  is: 16.7100
+Time spent in       aggeucwar (model),    3 (bootstrap),   5 (k),  1-Rep  is: 16.7100
+Time spent in       aggeucavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 16.8700
+Time spent in       aggeucavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 16.8400
+Time spent in       aggeuccom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 16.0900
+Time spent in       aggeuccom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 16.1200
+Time spent in       aggcitavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 16.7500
+Time spent in       aggcitavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 16.7600
+Time spent in       aggcitcom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 16.0200
+Time spent in       aggcitcom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 16.0600
+Time spent in       aggcoravg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 16.5600
+Time spent in       aggcoravg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 16.5600
+Time spent in       aggcorcom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 15.9800
+Time spent in       aggcorcom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 15.9700
+Time spent in       aggcosavg (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    3 (bootstrap),   2 (k),  1-Rep  is: 18.0800
+Time spent in       aggcosavg (model),    3 (bootstrap),   5 (k),  1-Rep  is: 18.0900
+Time spent in       aggcoscom (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    3 (bootstrap),   2 (k),  1-Rep  is: 15.3100
+Time spent in       aggcoscom (model),    3 (bootstrap),   5 (k),  1-Rep  is: 15.3100
+Time spent in             gmm (model),    3 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    3 (bootstrap),   2 (k),  1-Rep  is: 0.3500
+Time spent in             gmm (model),    3 (bootstrap),   5 (k),  1-Rep  is: 0.4300
+Time spent in       kmeanseuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanseuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0400
+Time spent in       kmeanseuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanscit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanscit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0900
+Time spent in       kmeanscor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0300
+Time spent in       kmeanscor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0500
+Time spent in       kmeanscos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       kmeanscos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.0600
+Time spent in       kmeanscos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.0200
+Time spent in       medoideuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoideuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.4800
+Time spent in       medoideuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.3200
+Time spent in       medoidcit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.3300
+Time spent in       medoidcit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.2200
+Time spent in       medoidcor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.2900
+Time spent in       medoidcor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.3800
+Time spent in       medoidcos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       medoidcos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.3200
+Time spent in       medoidcos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.2100
+Time spent in     spectraleuc (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectraleuc (model),    4 (bootstrap),   2 (k),  1-Rep  is: 14.4400
+Time spent in     spectraleuc (model),    4 (bootstrap),   5 (k),  1-Rep  is: 16.4800
+Time spent in     spectralcit (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcit (model),    4 (bootstrap),   2 (k),  1-Rep  is: 16.9500
+Time spent in     spectralcit (model),    4 (bootstrap),   5 (k),  1-Rep  is: 16.4900
+Time spent in     spectralcor (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcor (model),    4 (bootstrap),   2 (k),  1-Rep  is: 13.4300
+Time spent in     spectralcor (model),    4 (bootstrap),   5 (k),  1-Rep  is: 16.4800
+Time spent in     spectralcos (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in     spectralcos (model),    4 (bootstrap),   2 (k),  1-Rep  is: 15.6600
+Time spent in     spectralcos (model),    4 (bootstrap),   5 (k),  1-Rep  is: 16.6900
+Time spent in       aggeucwar (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucwar (model),    4 (bootstrap),   2 (k),  1-Rep  is: 16.7100
+Time spent in       aggeucwar (model),    4 (bootstrap),   5 (k),  1-Rep  is: 16.7000
+Time spent in       aggeucavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeucavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 16.8600
+Time spent in       aggeucavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 16.8800
+Time spent in       aggeuccom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggeuccom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 16.0900
+Time spent in       aggeuccom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 16.0800
+Time spent in       aggcitavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 16.7900
+Time spent in       aggcitavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 16.7700
+Time spent in       aggcitcom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcitcom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 16.0700
+Time spent in       aggcitcom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 16.0600
+Time spent in       aggcoravg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoravg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 16.4000
+Time spent in       aggcoravg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 16.4100
+Time spent in       aggcorcom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcorcom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 15.9400
+Time spent in       aggcorcom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 15.9200
+Time spent in       aggcosavg (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcosavg (model),    4 (bootstrap),   2 (k),  1-Rep  is: 17.9800
+Time spent in       aggcosavg (model),    4 (bootstrap),   5 (k),  1-Rep  is: 17.9800
+Time spent in       aggcoscom (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in       aggcoscom (model),    4 (bootstrap),   2 (k),  1-Rep  is: 14.7500
+Time spent in       aggcoscom (model),    4 (bootstrap),   5 (k),  1-Rep  is: 14.7600
+Time spent in             gmm (model),    4 (bootstrap),   1 (k),  1-Rep  is: 0.0000
+Time spent in             gmm (model),    4 (bootstrap),   2 (k),  1-Rep  is: 0.3500
+Time spent in             gmm (model),    4 (bootstrap),   5 (k),  1-Rep  is: 0.4300
+
+***************************************************************************
+Time spent in Create Ensemble Clusters for 4096 objects is 2174.800000
+***************************************************************************
+
+...ensemble generation complete.
+
